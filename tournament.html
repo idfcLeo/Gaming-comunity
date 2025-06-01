@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.59/build/spline-viewer.js"></script>
+</head>
+<body>
+    <div id="main" class="bg-black h-screen w-screen text-white">
+        <div id="element" class="z-0 h-screen w-screen flex justify-center items-center">
+            <h1 class="text-white z-40 text-[135px] bg-transparent absolute top-[30%]  text-center">TOURNAMENTS</h1>
+            <div id="forms" class="h-[500px] w-full relative top-[10%] z-50 flex justify-center items-center space-x-6">
+                <label for="options" class="text-white text-lg">Choose Your Mode:</label>
+                <select name="level" id="Level" class="text-white border-white border-2 bg-transparent p-2 rounded-md">
+                    <option value="Singleplayer">Single</option>
+                    <option value="MultiPlayer">MultiPlayer</option>
+                </select>
+        
+                <label for="Difficulty" class="text-white text-lg">Difficulty</label>
+                <select name="Difficulty" id="Difficulty" class="text-white border-white border-2 bg-transparent p-2 rounded-md">
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+        
+                <label for="category" class="text-white text-lg">Game Genre</label>
+                <select name="category" id="category" class="text-white border-white border-2 bg-transparent p-2 rounded-md">
+                    <option value="Action">Action</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Arcade">Arcade</option>
+                    <option value="Educational">Educational</option>
+                    <option value="Racing">Racing</option>
+                    <option value="Strategy">Strategy</option>
+                    <option value="Sports">Sports</option>
+                </select>
+                
+            </div>
+        </div>
+            <spline-viewer class="relative top-[-100%] z-0" url="https://prod.spline.design/AECPmrvrzeHye1hj/scene.splinecode"></spline-viewer>
+        </div>
+        <div id="Tournament-section" class="h-[70vh] w-screen flex items-center bg-black gap-5 ">
+        <div id="reg" class=" h-[50vh] w-[50vw] text-white text-7xl text-center bg-white/55 backdrop-blur-2xl rounded-xl ">
+            <h1>Live Tournament</h1>
+        </div>
+     <div id="ongoing" class=" h-[50vh] w-[50vw] text-white text-7xl text-center bg-white/55 rounded-xl backdrop-blur-2xl">
+        <h1>Tournament Registration</h1>
+     </div>
+        </div>
+</body>
+</html>

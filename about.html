@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"/>
+        <title>About Us</title>
+        <link rel="stylesheet" href="./output.css">
+    </head>
+    <body class="overflow-x-hidden">
+        <div id="main" class="bg-black h-[117vh] w-screen">
+            <div id="navbar-section" class="h-[150px] w-full flex justify-center">
+                <div id="nav" class="bg-purple-600 backdrop-blur-lg w-[95.5%] z-[30] h-[95px] rounded-xl mt-8 text-white flex items-center justify-between">
+                    <img src="./img/logo-removebg-preview.png" class="h-[150px] w-[200px] pl-6" alt="">
+                    <ul class="flex">
+                        <li class="pl-3 pr-7 font-Audiowide"><a href="homepage.html">Home</a></li>
+                        <li class="pl-3 pr-7 font-Audiowide"><a href="Community.html">Community</a></li>
+                        <li class="pl-3 pr-7 font-Audiowide"><a href="about.html">About</a></li>
+                        <li class="pl-3 pr-7 font-Audiowide"><a href="">Support</a></li>
+                    </ul>
+                    <ul class="flex">
+                        <li><i id="menu" class="ri-menu-3-line text-4xl font-thin pr-9 cursor-pointer"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="about-section text-center text-white py-20 px-10">
+                <h1 id="heading" class="text-white text-[80px] z-0 font-ROG">About Us</h1>
+                <p class="text-lg mt-6">
+                    Welcome to our platform, where innovation meets community. We aim to bring people together by fostering collaboration, learning, and creativity. Here's what we offer and what makes us unique:
+                </p>
+
+                <div class="about-card-container mt-12 flex flex-wrap justify-center">
+                    <div class="about-card bg-white/10 border border-white/20 rounded-lg p-6 m-4 w-[200px] text-left">
+                        <h2 class="text-2xl text-[#ffd700] font-bold">Innovative Tools</h2>
+                        <p class="mt-4">
+                            Our platform provides cutting-edge tools to help you bring your ideas to life, whether you are working on personal projects or collaborative endeavors.
+                        </p>
+                    </div>
+
+                    <div class="about-card bg-white/10 border border-white/20 rounded-lg p-6 m-4 w-[200px] text-left">
+                        <h2 class="text-2xl text-[#ffd700] font-bold">Collaborative Space</h2>
+                        <p class="mt-4">
+                            Join a vibrant community of like-minded individuals ready to share knowledge, inspire one another, and create together.
+                        </p>
+                    </div>
+
+                    <div class="about-card bg-white/10 border border-white/20 rounded-lg p-6 m-4 w-[200px] text-left">
+                        <h2 class="text-2xl text-[#ffd700] font-bold">Unique Experience</h2>
+                        <p class="mt-4">
+                            Unlike other platforms, we focus on building a personalized experience tailored to your interests and goals.
+                        </p>
+                    </div>
+
+                    <div class="about-card bg-white/10 border border-white/20 rounded-lg p-6 m-4 w-[200px] text-left">
+                        <h2 class="text-2xl text-[#ffd700] font-bold">Support & Growth</h2>
+                        <p class="mt-4">
+                            With resources and mentors readily available, we empower you to grow both personally and professionally.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <style>
+            #nav ul {
+                list-style: none;
+                display: flex;
+                margin: 0;
+                padding: 0;
+            }
+
+            #nav ul li {
+                margin: 0 15px;
+                font-family: 'Audiowide', sans-serif;
+            }
+
+            #nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                transition: color 0.3s;
+            }
+
+            #nav ul li a:hover {
+                color: #ffd700;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                background-color: #000;
+                color: white;
+            }
+
+            .about-card {
+                text-align: center;
+                width: 400px;
+                padding: 50px;
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+
+            .about-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5);
+            }
+
+            .about-card h2 {
+                margin-bottom: 9px;
+            }
+
+            .about-card-container{
+                margin: 100px;
+                gap: 50px;
+            }
+        </style>
+    </body>
+</html>

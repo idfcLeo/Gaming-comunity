@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"/>
+        <title>community</title>
+        <link rel="stylesheet" href="./output.css">
+    </head>
+    <body class="overflow-x-hidden">
+        <div id="main" class="bg-black h-[117vh] w-screen">
+            <!-- <div id="cursor" class="h-[30px] w-[30px] fixed bg-red-400 z-50 rounded-full"></div> -->
+            <div id="navbar-section" class="h-[150px] w-full   flex justify-center">
+                <div id="nav" class="bg-purple-600  backdrop-blur-lg w-[95.5%] z-[30]   h-[95px] rounded-xl mt-8 text-white flex items-center justify-between">
+                   
+                    <img src="./img/logo-removebg-preview.png" class="h-[150px] w-[200px] pl-6" alt="">
+                    <ul class="flex">
+                        <li class="pl-3 pr-7 font-Audiowide"><a href="homepage.html">Home</a></li>
+                        <li class="pl-3 pr-7 font-Audiowide"><a href="Community.html">Community</a></li>
+                        <li class="pl-3 pr-7 font-Audiowide"><a href="about.html">About</a></li>
+                        <li class="pl-3 pr-7 font-Audiowide"><a href="">Support</a></li>
+                    </ul>
+                    <ul class="flex">
+                        <li><i id="menu" class="ri-menu-3-line text-4xl font-thin pr-9 cursor-pointer"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="ani-section" class="h-full bg-white/45 backdrop-blur-2xl absolute z-40 w-[25%] top-0 right-[-30%]  pt-180 pb-180 px-30 rounded-md">
+                <h3 class="text-5xl py-9 font-Audiowide pl-5 text-white"><a href="./tournament.html">Tournament</a></h3>
+                <h3 class="text-5xl py-9 font-Audiowide pl-5 text-white"><a href="">Blog</a></h3>
+                <h3 class="text-5xl py-9 font-Audiowide pl-5 text-white"><a href="">Our Games</a></h3>
+                <h3 class="text-5xl py-9 font-Audiowide pl-5 text-white"><a href="">Reviews</a></h3>
+                <i id="close" class="ri-close-large-line absolute top-[5%] opacity-0 right-[10%] text-4xl text-white w-fit rounded-full p-3 transition-all duration-300 cursor-pointer hover:bg-gray-500/45"></i>
+                <div id="account" class=" bg-gray-700/30 py-2 flex items-center flex-col h-[170px] w-11/12 rounded-xl text-white text-2xl">
+                    <i class="text-white text-5xl ri-account-circle-fill"></i>
+                    <h1>UserName</h1>
+                    <div id="buttons" class="px-5 mt-3">
+                        <button type="button" class="bg-cyan-600 px-2 py-1 rounded-lg"><a href="./login.html">LogIn</a></button>
+                        <button type="button" class=" bg-cyan-600 px-2 py-1 rounded-lg mx-2"><a href="./registration.html">Sign Up</a></button>
+                        <button type="button" class="bg-cyan-600 px-2 py-1 rounded-lg">LogOut</button>
+                    </div>
+                </div>
+            </div>
+            
+    <style>
+        /* Style for the header */
+
+    
+        #nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        #nav ul li {
+            margin: 0 15px;
+            font-family: 'Audiowide', sans-serif;
+        }
+
+        #nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        #nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+        }
+
+        .community-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 150px 20px;
+            text-align: center;
+        }
+
+        .community-card {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .community-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .community-card a {
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .community-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <section class="community-section">
+        <h1 id="heading" class="text-white text-[100px] z-0 text-center mt-32 font-ROG">Join the Community</h1>
+        <p>Connect with other enthusiasts, share ideas, and collaborate on amazing projects.</p>
+
+        <div class="community-card">
+            <h2>Discord</h2>
+            <p>Join our Discord server to chat in real time.</p>
+            <a href="https://discord.com" target="_blank">Join Discord</a>
+        </div>
+
+        <div class="community-card">
+            <h2>Forums</h2>
+            <p>Participate in discussions on our community forums.</p>
+            <a href="https://forums.example.com" target="_blank">Visit Forums</a>
+        </div>
+
+        <div class="community-card">
+            <h2>Social Media</h2>
+            <p>Follow us on social media to stay updated.</p>
+            <a href="https://twitter.com" target="_blank">Follow Twitter</a>
+        </div>
+    </section>
+</body>
+</html>

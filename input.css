@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:"28days";
+    src: url(./fonts/FONT.ttf);
+}
+@font-face {
+    font-family:"Osake";
+    src: url(./fonts/Osake.otf);
+}
+@font-face {
+    font-family: "ROG";
+    src: url(./fonts/ROGFonts-Regular.otf);
+}
+@font-face {
+    font-family: "Stencil";
+    src: url(./fonts/STENCIL.TTF);
+}
+@font-face {
+    font-family: "Vineritc";
+    src: url(./fonts/VINERITC.TTF);
+}
