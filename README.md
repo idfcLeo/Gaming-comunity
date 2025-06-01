@@ -1,7 +1,7 @@
 # Gaming comunity
 Vader Verse is a vibrant gaming discovery platform connecting players, enthusiasts, and creators. Explore new games, join tournaments, and engage with a community-driven space for gamers of all levels and interests.
+![Document - Google Chrome 2025-06-01 13-09-26](https://github.com/user-attachments/assets/18f50792-4541-4f60-91d3-bbc55775d252)
 
-![Document - Google Chrome 2025-06-01 13-09-26](https://github.com/user-attachments/assets/186136e9-7d4c-448c-9aff-59fea780eeec)
 
 
 
